@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment / secrets
+.env
+views_cookie.json
+
+# Temp / scratch outputs
+_tmp_*.csv
+*_debug.html
+*_debug.png
+
+# OS
+.DS_Store
+Thumbs.db
