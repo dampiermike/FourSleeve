@@ -381,13 +381,14 @@ def build_report(eq_sleeves, gld_shares, last_adjs, last_day, arrays, common):
 def send_email(subject: str, body: str) -> None:
     email    = os.environ["GOOGLE_EMAIL"]
     password = os.environ["GOOGLE_APP_PASSWORD"]
+    recipients = [email, "2256144680@tmomail.net"]
     msg = MIMEText(body)
     msg["Subject"] = subject
     msg["From"]    = email
-    msg["To"]      = email
+    msg["To"]      = ", ".join(recipients)
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
         server.login(email, password)
-        server.send_message(msg)
+        server.sendmail(email, recipients, msg.as_string())
 
 
 def main():
