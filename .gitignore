@@ -8,9 +8,33 @@ __pycache__/
 dist/
 build/
 
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
 # Environment / secrets
 .env
+.env.*
+*.key
+*.pem
+credentials.json
 views_cookie.json
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code
+.claude/worktrees/
+.claude/cache/
+.claude/sessions/
+
+# Logs
+*.log
 
 # Temp / scratch outputs
 _tmp_*.csv

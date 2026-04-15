@@ -36574,5 +36574,32 @@
     "close": 48.96,
     "adjusted_close": 48.96,
     "volume": 76830879
+  },
+  {
+    "date": "2026-04-10",
+    "open": 49.36,
+    "high": 49.81,
+    "low": 48.82,
+    "close": 49.17,
+    "adjusted_close": 49.17,
+    "volume": 65481600
+  },
+  {
+    "date": "2026-04-13",
+    "open": 48.78,
+    "high": 50.74,
+    "low": 48.46,
+    "close": 50.66,
+    "adjusted_close": 50.66,
+    "volume": 67169100
+  },
+  {
+    "date": "2026-04-14",
+    "open": 51.4,
+    "high": 53.43,
+    "low": 51.395,
+    "close": 53.41,
+    "adjusted_close": 53.41,
+    "volume": 70198500
   }
 ]
